@@ -4,6 +4,7 @@
 package boffin;
 import java.util.Scanner;
 
+
 public class App {
     public String getGreeting() {
         return "Hello World!";

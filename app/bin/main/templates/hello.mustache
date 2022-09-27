@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h1>Hello World!</h1>
+    </body>
+</html>
+
+
+<html>
+    <body>
+        {{^name}}                   {{! no name passed so this run }}
+        <form method="get">
+            <label>Name: <input name="name"></label>
+            <button>Submit</button>
+        </form>
+        {{/name}}
+        {{#name}}                   {{! if we do get a name }}
+        <h1>Hello {{name}}!</h1>    {{! this will run }}
+        {{/name}}
+    </body>
+</html>

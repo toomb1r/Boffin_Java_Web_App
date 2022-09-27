@@ -26,6 +26,7 @@ dependencies {
     //Added for Spark
     implementation 'com.sparkjava:spark-core:2.9.4'
     implementation 'org.slf4j:slf4j-simple:2.0.0'
+    implementation 'com.sparkjava:spark-template-mustache:2.7.1'
 }
 
 application {
