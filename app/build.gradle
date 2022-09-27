@@ -30,7 +30,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'boffin.App'
+    mainClass = 'boffin.Server'
 }
 
 tasks.named('test') {
