@@ -7,7 +7,6 @@ public class Server {
     public static void main(String[] args) {
         //get("/", (req, res) -> "<h1 style='color:purple;font-family:\"Marker Felt";cursor:crosshair'>Hello World!</h1>");
         get("/", (req, res) -> "<h1>Hello World!</h1>");
-
        // get("/hello", (req, res) -> {
        //     return "<html><body><h1>Hello World!</h1></body></html>";
        // });
